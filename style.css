@@ -1,0 +1,247 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+.cv
+{
+    display: flex;
+    
+}
+
+
+/*cv_partie_gauche*/
+
+.cv_partie_gauche
+{
+    background-color: rgb(254 ,202, 7);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex:1 ;
+
+}
+
+.titre_gauche
+{
+    background-color: rgb(64,64,64);
+    color: rgb(254,202,7);
+    font-size:14px
+    
+}
+    /*photo*/
+.photo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cercle_photo
+{
+    border-radius: 50% ;
+    width: 90px;
+    height: 90px;
+    border: 1.5px solid #DAAF12;
+    background-image:url(fay_mini.jpg);
+    background-position: center;
+    margin: auto;
+    
+}
+
+    /*contact*/
+.contact
+{
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+.contact p 
+{
+    font-size: 10px;
+}
+
+    /* A propos de moi */
+.profil
+{
+    padding-left: 20px;
+    padding-right: 40px;
+    text-align: left;
+    flex: 1;
+}
+.profil p
+{
+    font-size: 9px;
+    text-align: justify;
+    
+}
+    /*Loisirs*/
+.icones
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+
+/*cv_partie_droite*/
+
+.cv_partie_droite
+{
+    padding: 40px;
+}
+/*header*/
+header 
+{
+    font-size: 25pX;
+
+}
+.souligne_orange
+{
+    text-decoration: underline rgb(254 ,202, 7);
+}
+/*titre de la partie droite*/
+
+/*formation*/
+
+.titre_formation
+{
+    margin-top: 30px;
+    display: flex;
+    border:solid;
+    border-top: none;
+    border-right: none;
+    border-left:none;
+    border-color: rgb(254,202,7);
+}
+.titre_frmt
+{
+    padding-left: 10px;
+    font-size: 15px;
+}
+.icone_frmt
+{
+    margin-bottom: 5px
+}
+
+.frmt
+{
+    display: flex;
+    align-self: flex-end;
+    
+}
+.année_frmt
+{
+    color: rgb(254,202,7);
+}
+.diplome li
+{
+    list-style: none;
+}
+
+/*experience professionelle*/
+.titre_experience_professionelle
+{
+    margin-top: 30px;
+    display: flex;
+    border:solid;
+    border-top: none;
+    border-right: none;
+    border-left:none;
+    border-color: rgb(254,202,7);
+}
+.titre_exp
+{
+    padding-left: 10px;
+    font-size: 15px;
+}
+.icone_exp
+{
+    margin-bottom: 5px
+}
+
+.exp_pro
+{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.section2014
+{
+    display: flex;
+}
+.section2015
+{
+    display: flex;
+}
+.section2017
+{
+    display: flex;
+}
+
+.detail_2014
+{
+   padding-left: 180px;
+}
+.detail_2015
+{
+    padding-left: 180px;
+}
+.detail_2017
+{
+    padding-left: 180px;
+}
+
+.detail_2014 li
+{
+    list-style: none;
+}
+.detail_2015 li
+{
+    list-style: none;
+}
+.detail_2017 li
+{
+    list-style: none;
+}
+.annee_2014
+{
+    color: rgb(254,202,7);
+}
+.annee_2015
+{
+    color: rgb(254,202,7);
+}
+.annee_2017
+{
+    color: rgb(254,202,7);
+}
+
+/*recommandaitons*/
+.titre_recommandation
+{
+    margin-top: 30px;
+    display: flex;
+    border:solid;
+    border-top: none;
+    border-right: none;
+    border-left:none;
+    border-color: rgb(254,202,7);
+}
+
+.titre_rec
+{
+    padding-left: 10px;
+    font-size: 15px;
+}
+.icone_exp
+{
+    margin-bottom: 5px
+}
+
+
