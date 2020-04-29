@@ -244,4 +244,18 @@ header
     margin-bottom: 5px
 }
 
+/*MODIFICATION DE LA PAGE SELON LA TAILLE DE L'ECRAN*/
+
+
+/*Modif sur les telephones */
+
+@media (max-width:768px)
+{
+   .cv
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 
