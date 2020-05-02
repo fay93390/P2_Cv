@@ -134,13 +134,14 @@ header
     align-self: flex-end;
     
 }
-.année_frmt
-{
-    color: rgb(254,202,7);
-}
+
 .diplome li
 {
     list-style: none;
+}
+.diplome
+{
+    padding-left: 50px;
 }
 
 /*experience professionelle*/
@@ -171,6 +172,19 @@ header
     
     
 }
+.annee_2014
+{
+    display: flex;
+    margin-top: 20px;
+}
+.annee_2015
+{
+    display: flex;
+}
+.annee_2017
+{
+    display: flex;
+}
 .section2014
 {
     display: flex;
@@ -186,7 +200,8 @@ header
 
 .detail_2014
 {
-   padding-left: 180px;
+    padding-left: 175px;
+    margin-top: 20px;
 }
 .detail_2015
 {
@@ -208,18 +223,6 @@ header
 .detail_2017 li
 {
     list-style: none;
-}
-.annee_2014
-{
-    color: rgb(254,202,7);
-}
-.annee_2015
-{
-    color: rgb(254,202,7);
-}
-.annee_2017
-{
-    color: rgb(254,202,7);
 }
 
 /*recommandaitons*/
@@ -247,15 +250,21 @@ header
 /*MODIFICATION DE LA PAGE SELON LA TAILLE DE L'ECRAN*/
 
 
-/*Modif sur les telephones */
-
-@media (max-width:768px)
+/*Responsive sur les telephones */
+@media screen and (max-width: 425px)
 {
-   .cv
+    .cv
     {
         display: flex;
         flex-direction: column;
     }
 }
+
+/*Responsive sur les telephones */
+@media screen and (min-width: 768px) and (max-width: 1023px)
+{
+    
+}
+
 
 
