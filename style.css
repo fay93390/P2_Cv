@@ -129,7 +129,6 @@ i
 
 
 /*formation*/
-
 .titre_formation
 {
     margin-top: 30px;
@@ -144,39 +143,110 @@ i
 {
     padding-left: 10px;
     font-size: 15px;
+    font-weight: bold;
 }
-
 .icone_frmt
 {
     margin-bottom: 5px
 }
 
-
 .frmt
 {
     display: flex;
-    align-self: flex-end;
+    flex-direction: column;
+    
     
 }
-
-.annee_frmt i
+/*2015*/
+.annee_2015_frmt
 {
-    font-size: 5px;
-    color: rgb(254,202,7);  
-    padding-right: 10px;
+    display: flex;
 }
-
-.diplome li
+.section2015_frmt
 {
-    list-style: none;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.diplome
+.detail_2015_frmt
 {
-    padding-left: 50px;
+    padding-left: 160px;
 }
-.annee_frmt span 
+.annee_2015_frmt i
+{
+    font-size: 10px;
+    color: rgb(254,202,7);
+}
+.annee_2015_frmt span
 {
     font-size: 13px;
+    padding-left: 17px;
+}
+.detail_2015_frmt p
+{
+    font-size: 13px;
+    margin-top: 0px;
+}
+/*2016*/
+.annee_2016
+{
+    display: flex;
+}
+.section2016
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+.detail_2016
+{
+    padding-left: 115px;
+}
+.annee_2016  i
+{  
+    font-size: 5px;
+    color: rgb(254,202,7);
+}
+.annee_2016 span 
+{
+    font-size: 13px;
+    padding-left: 20px;
+}
+.detail_2016 p
+{
+    font-size: 13px;
+    margin-top: 0px;
+}
+
+/*2020*/
+.annee_2020
+{
+    display: flex;
+}
+
+
+.section2020
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+.detail_2020
+{
+    padding-left: 110px;
+}
+.annee_2020  i
+{  
+    font-size: 5px;
+    color: rgb(254,202,7);
+}
+.annee_2020 span 
+{
+    font-size: 13px;
+    padding-left: 20px;
+}
+.detail_2020 p
+{
+    font-size: 13px;
+    margin-top: 0px;
 }
 /*experience professionelle*/
 .titre_experience_professionelle
@@ -193,6 +263,7 @@ i
 {
     padding-left: 10px;
     font-size: 15px;
+    font-weight: bold;
 }
 .icone_exp
 {
@@ -206,24 +277,69 @@ i
     
     
 }
+/*2014*/
 .annee_2014
 {
     display: flex;
     margin-top: 20px;
 }
+.section2014
+{
+    display: flex;
+    
+}
+.detail_2014
+{
+    padding-left: 175px;
+    margin-top: 20px;
+}
+.annee_2014 i
+{
+    font-size: 10px;
+    color: rgb(254,202,7);
+}
+.annee_2014 span 
+{
+    font-size: 13px;
+    padding-left: 17px;  
+}
+.detail_2014 p 
+{
+    font-size: 13px;
+    margin-top:0px 
+}
+
+/*2015*/
 .annee_2015
 {
     display: flex;
 }
-.annee_2017
-{
-    display: flex;
-}
-.section2014
-{
-    display: flex;
-}
 .section2015
+{
+    display: flex;
+   
+}
+.detail_2015
+{
+    padding-left: 180px;
+}
+.annee_2015 i
+{
+    font-size: 5px;
+    color: rgb(254,202,7);
+}
+.annee_2015 span
+{
+    font-size: 13px;
+    padding-left: 20px
+}
+.detail_2015 p
+{
+    font-size: 13px;
+    margin-top:0px;
+}
+/*2017*/
+.annee_2017
 {
     display: flex;
 }
@@ -231,34 +347,26 @@ i
 {
     display: flex;
 }
-
-.detail_2014
-{
-    padding-left: 175px;
-    margin-top: 20px;
-}
-.detail_2015
-{
-    padding-left: 180px;
-}
 .detail_2017
 {
     padding-left: 180px;
 }
-
-.detail_2014 li
+.annee_2017  i
 {
-    list-style: none;
-}
-.detail_2015 li
-{
-    list-style: none;
-}
-.detail_2017 li
-{
-    list-style: none;
+    font-size: 5px;
+    color: rgb(254,202,7);
 }
 
+.annee_2017  span
+{
+    font-size: 13px;
+    padding-left: 20px;
+}
+.detail_2017 p
+{
+    font-size: 13px;
+    margin-top:0px;
+}
 /*recommandaitons*/
 .titre_recommandation
 {
@@ -275,10 +383,19 @@ i
 {
     padding-left: 10px;
     font-size: 15px;
+    font-weight: bold;
 }
 .icone_exp
 {
     margin-bottom: 5px
+}
+.rec p
+{
+    font-size: 15px;
+}
+.rec span
+{
+    font-size: 13px;
 }
 
 /*MODIFICATION DE LA PAGE SELON LA TAILLE DE L'ECRAN*/
