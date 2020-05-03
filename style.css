@@ -404,10 +404,40 @@ i
 /*Responsive sur les telephones */
 @media screen and (max-width: 425px)
 {
-    .cv
+   .cv
     {
         display: flex;
         flex-direction: column;
+        width: auto;
+    }
+    .cv_partie_droite
+    {
+        padding-left: 10px;
+        padding-top: 15px;
+    }
+     .detail_2016
+    {
+        padding-left: 50px;
+    }
+    .detail_2015_frmt
+    {
+        padding-left: 100px;
+    }
+    .detail_2020
+    {
+        padding-left: 50px
+    }
+    .detail_2014
+    {
+        padding-left: 110px
+    }
+    .detail_2015
+    {
+        padding-left: 110px
+    }
+    .detail_2017
+    {
+        padding-left: 110px
     }
 }
 
