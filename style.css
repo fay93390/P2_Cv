@@ -24,7 +24,7 @@ body
     flex:1 ;
 
 }
-
+    /*titre des section à gauche */
 .titre_gauche
 {
     background-color: rgb(64,64,64);
@@ -86,6 +86,10 @@ body
     justify-content: space-around;
     margin-bottom: 10px;
 }
+.loisirs i
+{
+    font-size: 30px;
+}
 
 
 /*cv_partie_droite*/
@@ -97,14 +101,32 @@ body
 /*header*/
 header 
 {
-    font-size: 25pX;
+    font-size: 25px;
 
+}
+.abdou
+{
+    color: rgb(255,203,8)
+}
+
+header .titre
+{
+    font-size: 15px;
 }
 .souligne_orange
 {
     text-decoration: underline rgb(254 ,202, 7);
 }
+
 /*titre de la partie droite*/
+
+/* Les icones devant les titre de la partie droite*/
+i
+{
+    font-size: 25px;
+    color: rgb(254,202,7);
+}
+
 
 /*formation*/
 
@@ -123,16 +145,25 @@ header
     padding-left: 10px;
     font-size: 15px;
 }
+
 .icone_frmt
 {
     margin-bottom: 5px
 }
+
 
 .frmt
 {
     display: flex;
     align-self: flex-end;
     
+}
+
+.annee_frmt i
+{
+    font-size: 5px;
+    color: rgb(254,202,7);  
+    padding-right: 10px;
 }
 
 .diplome li
@@ -143,7 +174,10 @@ header
 {
     padding-left: 50px;
 }
-
+.annee_frmt span 
+{
+    font-size: 13px;
+}
 /*experience professionelle*/
 .titre_experience_professionelle
 {
