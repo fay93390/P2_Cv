@@ -3,11 +3,15 @@ body
     margin: 0;
     padding: 0;
     font-family:sans-serif;
+    background-color: black;
 }
 .cv
 {
     display: flex;
-    
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    background-color: white;
 }
 
 
@@ -33,7 +37,7 @@ body
     
 }
     /*photo*/
-.photo
+figure
 {
     display: flex;
     justify-content: center;
@@ -59,9 +63,6 @@ body
     text-align: left;
     padding-left: 20px;
     padding-right: 40px;
-}
-.contact p 
-{
     font-size: 10px;
 }
 
@@ -121,7 +122,7 @@ header .titre
 /*titre de la partie droite*/
 
 /* Les icones devant les titre de la partie droite*/
-i
+.cv_partie_droite i
 {
     font-size: 25px;
     color: rgb(254,202,7);
@@ -444,7 +445,26 @@ i
 /*Responsive sur les telephones */
 @media screen and (min-width: 768px) and (max-width: 1023px)
 {
-    
+    .cv
+    {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .titre_gauche
+    {
+    font-size:25px;
+    }
+    .contact
+    {
+    text-align:center;
+    font-size: 20px;
+    }
+    .profil p
+    {
+    font-size: 20px;
+    text-align: justify;
+    }
 }
 
 
